@@ -1,5 +1,7 @@
 # ECS629U Artificial Inteligence: Coursework  Report
 
+[See Jupyter Notebook here](https://github.com/tobywynne-mellor/ECS629U_Artificial_Inteligence/blob/9039e2c16f85f1ef471ae5373fd39e9fd7185903/Toby_wynne-mellor_ECS629U_AI_CW.ipynb)
+
 ## Task 1 - **Training Dataset and Data loader**
 
 I initiliased the dataset with `Nf` and `Npts` variables, denoting the number of functions to generate and the number of points to generate per function. During initialisation of the `Dataset`, the function generate_functions is called which uses the code provided to generate `Nf` functions and saves `Npts` points per function to the member variables `x_values` and `y_values`.
